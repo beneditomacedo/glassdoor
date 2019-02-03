@@ -1,0 +1,9 @@
+*.Rproj*
+.Rhistory
+.RData
+.Ruserdata
+*.rda
+*.Rda
+*.Rprofile
+data
+temp
