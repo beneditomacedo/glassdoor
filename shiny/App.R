@@ -95,7 +95,7 @@ ui <- dashboardPage(
 
 # Define server logic ----
 server <- shinyServer(function(input, output,session) {
-  data("glassdoor")
+  load("../data/db/glassdoor.Rda")
   colscale <- c(semantic_palette[["red"]], semantic_palette[["green"]], semantic_palette[["blue"]])
 
   output$boxplot1 <- renderPlot({
