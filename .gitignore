@@ -7,3 +7,4 @@
 *.Rprofile
 data
 temp
+.Rproj.user
